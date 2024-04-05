@@ -4,7 +4,7 @@ import { Row, Col, Card } from 'react-bootstrap';
 import ArtworkCard from '@/components/ArtworkCard';
 import passport from 'passport';
 
-export default function handler(req, res) {
+export function handler(req, res) {
   passport.authenticate('jwt', { session: false }, function(err, user, info) {
     if (err) { return res.status(500).json({ message: err.message }); }
     if (!user) { return res.status(401).json({ message: 'Unauthorized' }); }
