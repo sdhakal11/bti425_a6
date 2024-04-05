@@ -1,0 +1,3 @@
+mongo u: shaswot07
+mongo p: KL6TCES3VSu7JuWB
+connection string: mongodb+srv://shaswot07:KL6TCES3VSu7JuWB@cluster0.oc0nfrs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
