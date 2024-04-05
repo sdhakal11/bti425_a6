@@ -1,13 +1,24 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "bti425_a6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdhakal11/bti425_a6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdhakal11/bti425_a6/issues"
+  },
+  "homepage": "https://github.com/sdhakal11/bti425_a6#readme",
   "dependencies": {
     "bootstrap": "^5.3.2",
     "dotenv": "^16.4.5",
